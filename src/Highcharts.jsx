@@ -1,3 +1,4 @@
+if(!global) global = window;
 global.HighchartsAdapter = require('exports?HighchartsAdapter!Highcharts/js/adapters/standalone-framework.src');
 var Highcharts = require('exports?Highcharts!Highcharts');
 var React = require('react');
